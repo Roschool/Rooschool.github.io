@@ -1,0 +1,138 @@
+div.URL a.gl button {
+    background: #3d7adb;
+    border-radius: 5px;
+    border: none;
+}
+
+div.URL a.gl button:hover {
+	background: #3f70bf;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+div.URL a.cs button {
+    background: #ffae00;
+    border-radius: 5px;
+    border: none;
+}
+
+div.URL a.cs button:hover {
+	background: #c29432;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+div.menu a.m button {
+	background: #3d7adb;
+	border-radius: 5px;
+	border: none;
+	font-family: Karla;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	height: 30px;
+	width: auto;
+}
+
+div.menu a.m button:hover {
+	background: #3f70bf;
+	border-radius: 3px;
+}
+
+div.menu a.active button {
+	background: #0097ab;
+	border-radius: 5px;
+	border: none;
+	font-family: Karla;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	height: 30px;
+	width: auto;
+}
+
+div.menu a.active button:hover {
+	background: #096f7d;
+	border-radius: 3px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Hoofdtekst {
+	font-family: Kanit;
+	color: white;
+}
+
+.Normaletekst {
+	font-family: Karla;
+	color: white;
+}
+
+div.Images img.Geest {
+	height: 200px;
+	width: 200px;
+	position: relative;
+    left: 250px;
+	top: -150px;
+}
+
+
+.dropbtn {
+    background-color: #3993d4;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+	border-radius: 5px;
+	border: none;
+	font-family: Kanit;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: #66c0e3;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+	font-family: Kanit;
+	border-radius: 5px;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: Kanit;
+}
+.dropdown-content a:hover {
+    background-color: #589db8;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #66c0e3;
+	cursor: pointer;
+}
+
+.dropdown-content a.active {
+	color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: Kanit;
+	background: #0097ab;
+}
+
+.dropdown-content a.active:hover {
+	background: #096f7d;
+}
