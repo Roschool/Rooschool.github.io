@@ -136,7 +136,14 @@ div.Images img.Geest {
 .dropdown-content a.active:hover {
 	background: #096f7d;
 }
-
+@media screen and (min-width: 601px) {
+	div.menu {
+		display: block;
+	}
+	form.menuDD div.dropdown {
+		display: none;
+	}
+}
 @media screen and (max-width: 600px) {
     .Hoofdtekst,
     .Normaletekst {
@@ -151,5 +158,11 @@ div.Images img.Geest {
     align-items: flex-end;
     top: 25px;
     left: 0px;
+}
+div.menu {
+	display: none;
+}
+form.menuDD div.dropdown {
+	display: block;
 }
 }
