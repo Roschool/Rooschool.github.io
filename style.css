@@ -136,3 +136,11 @@ div.Images img.Geest {
 .dropdown-content a.active:hover {
 	background: #096f7d;
 }
+
+@media screen and (max-width: 600px)
+{
+	h1 {
+		font-size: 36px;
+		line-height: 50px;
+	}
+}
