@@ -51,7 +51,7 @@
     position: relative;
     left: 50%; /* Center horizontally */
     transform: translateY(-100px); /* Move up 100px */
-    margin-left: -100px; /* Adjust for half of image width */
+    margin-left: -50px; /* Adjust for half of image width */
 }
 
 /* Unselectable text */
