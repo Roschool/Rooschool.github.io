@@ -149,5 +149,7 @@ div.Images img.Geest {
     width: 300px;
     display: flex;
     align-items: flex-end;
+    bottom: -200px;
+    left: 0px;
 }
 }
