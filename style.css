@@ -144,10 +144,15 @@ div.Images img.Geest {
         color: white;
     }
     
-div.Images img.Geest {
-    height: 200px;
-	width: 200px;
+.Images {
 	position: relative;
-    left: 150px;
-	top: -50px;
+	height: 300px;
+	width: 300px;
+}
+
+.Images img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
 }
