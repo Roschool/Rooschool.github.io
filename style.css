@@ -46,12 +46,12 @@
 
 /* Image styles */
 .Images img.Geest {
-    height: 200px;
+    height: 2px;
     width: 200px;
     position: relative;
     left: 50%; /* Center horizontally */
     transform: translateY(-100px); /* Move up 100px */
-    margin-left: -50px; /* Adjust for half of image width */
+    margin-left: -75px; /* Adjust for half of image width */
 }
 
 /* Unselectable text */
