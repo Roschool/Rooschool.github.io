@@ -148,6 +148,8 @@ div.Images img.Geest {
 	position: relative;
 	height: 300px;
 	width: 300px;
+	left: 0;
+	top: 300px;
 }
 
 .Images img {
