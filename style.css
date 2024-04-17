@@ -49,8 +49,9 @@
     height: 200px;
     width: 200px;
     position: relative;
-    left: 250px;
-    top: -100px; /* Changed top position to 100px */
+    left: 50%; /* Center horizontally */
+    transform: translateY(-100px); /* Move up 100px */
+    margin-left: -100px; /* Adjust for half of image width */
 }
 
 /* Unselectable text */
@@ -91,8 +92,8 @@
     .Images img.Geest {
         height: 150px;
         width: 150px;
-        left: 150px;
-        top: -100px;
+        transform: translateY(-200px); /* Move up 200px */
+        margin-left: -75px; /* Adjust for half of image width */
     }
 }
 
