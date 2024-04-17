@@ -92,7 +92,7 @@
     .Images img.Geest {
         height: 150px;
         width: 150px;
-        transform: translateY(300px); /* Move down 300px */
+        transform: translateY(200px); /* Move down 300px */
         margin-left: -75px; /* Adjust for half of image width */
     }
 }
