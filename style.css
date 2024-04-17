@@ -144,12 +144,12 @@ div.Images img.Geest {
         color: white;
     }
     
-.Images {
-    height: 300px;
-    width: 300px;
+div.Images img.Geest {
+    height: 200px;
+    width: 200px;
     display: flex;
     align-items: flex-end;
-    bottom: -125px;
+    top: 25px;
     left: 0px;
 }
 }
