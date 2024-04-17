@@ -50,7 +50,7 @@
     width: 200px;
     position: relative;
     left: 250px;
-    top: -150px;
+    top: -100px; /* Changed top position to 100px */
 }
 
 /* Unselectable text */
