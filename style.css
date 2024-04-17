@@ -145,16 +145,9 @@ div.Images img.Geest {
     }
     
 .Images {
-	position: relative;
-	height: 300px;
-	width: 300px;
-	left: 0;
-	top: 300px;
-}
-
-.Images img {
-	position: absolute;
-	left: 0;
-	bottom: 0;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
 }
 }
