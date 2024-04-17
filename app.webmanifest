@@ -57,9 +57,29 @@
   "lang": "nl",
   "shortcuts": [
     {
-      "name": "Rooster",
+      "name": "Home",
       "url": "/",
-      "description": "Bekijk je rooster."
+      "description": "Home"
+    }
+ {
+      "name": "Pagina 2",
+      "url": "/pagina2",
+      "description": "Pagina 2"
+    }
+ {
+      "name": "Phasmophobia",
+      "url": "/phasmophobia",
+      "description": "Phasmophia"
+    }
+ {
+      "name": "Over",
+      "url": "/over",
+      "description": "Over"
+    }
+ {
+      "name": "Geesten",
+      "url": "/geesten",
+      "description": "Geesten"
     }
   ],
   "categories": ["education"]
