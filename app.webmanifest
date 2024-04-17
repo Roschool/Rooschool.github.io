@@ -2,7 +2,7 @@
   "name": "Website ICT",
   "short_name": "Website",
   "description": "Project voor website ICT",
-  "start_url": "/",
+  "start_url": "/website",
   "launch_handler": {
     "client_mode": "auto"
   },
