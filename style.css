@@ -1,8 +1,7 @@
-/* Button styles */
+/* Common button styles */
 .URL a.gl button,
 .URL a.cs button,
-.menu a.m button,
-.menu a.active button,
+.menu button,
 .dropbtn {
     background-color: #3d7adb;
     border-radius: 5px;
@@ -11,27 +10,29 @@
     cursor: pointer;
     font-family: Karla, sans-serif;
     font-size: 18px;
-    height: 30px;
     padding: 5px 10px;
-    width: auto;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
 
+.menu button {
+    font-size: 14px;
+    padding: 3px 8px;
+}
+
+.menu a.active button {
+    background-color: #0097ab;
+}
+
+/* Button hover styles */
 .URL a.gl button:hover,
 .URL a.cs button:hover,
-.menu a.m button:hover,
-.menu a.active button:hover,
+.menu button:hover,
 .dropbtn:hover {
     background-color: #3f70bf;
     border-radius: 3px;
 }
 
-.menu a.active button,
-.dropdown:hover .dropbtn {
-    background-color: #0097ab;
-}
-
-.menu a.active button:hover,
-.dropdown-content a.active {
+.menu a.active button:hover {
     background-color: #096f7d;
 }
 
@@ -54,17 +55,11 @@
 
 /* Unselectable text */
 .unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
 }
 
 /* Dropdown styles */
 .dropdown {
-    display: inline-block;
     position: relative;
 }
 
@@ -78,7 +73,6 @@
 }
 
 .dropdown-content a {
-    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -94,13 +88,6 @@
 
 /* Media query for screens with a maximum width of 600 pixels */
 @media screen and (max-width: 600px) {
-    /* Adjustments for smaller screens */
-    .menu a.m button,
-    .menu a.active button {
-        font-size: 14px;
-        padding: 3px 8px;
-    }
-
     .Images img.Geest {
         height: 150px;
         width: 150px;
@@ -108,4 +95,3 @@
         top: -100px;
     }
 }
-
