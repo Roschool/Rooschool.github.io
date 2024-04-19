@@ -1,3 +1,26 @@
+title {
+	background: red;
+}
+
+body {
+	background-color: #56b6d1;
+}
+
+div h1 {
+	background-color: #79a2e8;
+	border-radius: 5px;
+	font-family: Kanit;
+}
+
+div.menu {
+	background-color: #78a6bf;
+	height:540px;
+	width:480px;
+	float: left;
+	border-radius: 3px;
+	font-family: Karla;
+}
+
 div.URL a.gl button {
     background: #3d7adb;
     border-radius: 5px;
@@ -136,7 +159,7 @@ div.Images img.Geest {
 .dropdown-content a.active:hover {
 	background: #096f7d;
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 600px) {
 	div.menu {
 		display: block;
 	}
